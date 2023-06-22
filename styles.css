@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-img {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    line-height: 0.8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+
+    border-radius: 0 100px 0 100px;
+
+    /* Colours */
+    background-color: #94d2bd;
+    color: #2b2839;
+    border-bottom: solid 12px #f5cac3;
+    border-top: solid 12px #f5cac3;
+}
+
+.profile-img {
+    border-radius: 0 0 0 95px;
+}
+
+.hidden-info {
+    font-size: x-small;
+    color: white;
+    line-height: 1.6;
+}
+
+#phone-number:hover, #email:hover {
+    height: 17px;
+    background-color: #f8d5d0;
+    color: #2b2839;
+    /* padding-top: 2px; */
+}
+
+/* .phone-icon {
+    height: 10px;
+} */
